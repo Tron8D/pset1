@@ -1,5 +1,6 @@
 #include <stdio.h>
 #include <cs50.h>
+#include <math.h> 
 
 int main(void)
 
@@ -13,7 +14,7 @@ int main(void)
    
     int Coins[] = {25 , 10 , 5 , 1};
     int MinCoins = 0;
-    int Cent = OddMoney*100 + 0.5;
+    int Cent = (int) round(OddMoney*100);
     int n = 0;
     
         do {
