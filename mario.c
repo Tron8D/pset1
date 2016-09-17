@@ -16,7 +16,12 @@ int main(void)
         {
             printf(" ");
         }
-        for (int m = 0 ; m <= i ; m++)
+        for (int m = 0 ; m < i ; m++)
+        {
+            printf("#");
+        }
+        printf("  ");
+        for (int m = 0 ; m < i ; m++)
         {
             printf("#");
         }
